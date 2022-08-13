@@ -6,7 +6,7 @@ namespace ADOPXF_E_PrimeNumbersService.Models
 {
     public class PrimeBatch
     {
-        public const int BatchSize = 1000000;
+        public const int BatchSize = 1_000_000;
         public int NrPrimes { get; set; }
         public int BatchStart { get; set; }
         public int BatchEnd => BatchStart + BatchSize - 2;
